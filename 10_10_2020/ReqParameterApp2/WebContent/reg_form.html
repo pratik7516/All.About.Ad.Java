@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="RegistrationServlet" method="post" >
+		<table align="center" >
+			<tr>
+				<td>User Name</td>
+				<td><input type="text" name="uname" placeholder="Enter user name"  ></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="upass" placeholder="Enter password"  ></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" value="male" >Male
+				<input type="radio" name="gender" value="female" >Female</td>
+			</tr>
+			<tr>
+				<td>Languages</td>
+				<td><input type="checkbox" name="languages" value="english" >English
+				<input type="checkbox" name="languages" value="hindi" >Hindi</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea name="address" rows="5" cols="50"></textarea></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td>
+					<select name="city" >
+						<option value="mumbai" >Mumbai</option>
+						<option value="pune" >Pune</option>
+						<option value="Nagpur" >Nagpur</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Register" ></td>
+			</tr>
+			
+		</table>
+		
+		
+	</form>
+</body>
+</html>
